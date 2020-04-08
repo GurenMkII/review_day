@@ -6,12 +6,24 @@
 // alert("Hello "+name+'!');
 
     // ||||| EvenMore 3 |||||
-    var name = prompt("What is you name?");
-    if (name == 'Alice' || 'Bob'){
-    alert("Hello "+name+'!');
-    } 
+    // var name = prompt("What is you name?");
+    // if (name === 'Alice' || name === 'Bob'){
+    // alert("Hello "+name+'!');
+    // } 
+    
 
     // ||||| EvenMore 5 |||||
+var p1 = prompt("Please enter any number");
+var n = parseInt(p1);
+var sum = 0;
+for (let i=1;i<n;i++){
+     sum=sum+i;
+     console.log(i);
+     console.log(sum);
+
+}
+alert("The summary of numbers from 1 to "+n+" equals to "+sum);
+
     // ||||| EvenMore 6 |||||
     // ||||| EvenMore 7 |||||
     // ||||| EvenMore 8 |||||
