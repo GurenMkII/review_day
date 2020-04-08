@@ -16,10 +16,10 @@
 var p1 = prompt("Please enter any number");
 var n = parseInt(p1);
 var sum = 0;
-for (let i=1;i<n;i++){
+for (let i=1;i<=n;i++){
      sum=sum+i;
-     console.log(i);
-     console.log(sum);
+    //  console.log(i);
+    //  console.log(sum);
 
 }
 alert("The summary of numbers from 1 to "+n+" equals to "+sum);
